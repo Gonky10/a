@@ -1,0 +1,4 @@
+User-agent: *
+Allow: *
+
+Sitemap: http://gpimagenes.com/lib/jquery/pdf/sitemap.xml

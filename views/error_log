@@ -1,0 +1,48 @@
+[09-Apr-2025 15:16:05 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:16:05 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(https://TU_DOMINIO/tu_api.php?type=0): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:17:05 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:17:05 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(https://TU_DOMINIO/tu_api.php?type=0): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:17:07 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:17:07 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(https://TU_DOMINIO/tu_api.php?type=0): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:17:08 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:17:08 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(https://TU_DOMINIO/tu_api.php?type=0): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:17:30 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:17:30 America/Argentina/Buenos_Aires] PHP Warning:  file_get_contents(https://TU_DOMINIO/tu_api.php?type=0): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home5/uv1949/public_html/adm_visible/productos.php on line 6
+[09-Apr-2025 15:54:39 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home5/uv1949/public_html/adm_visible/productos.php:56
+Stack trace:
+#0 /home5/uv1949/public_html/views/categorias.php(93): include()
+#1 {main}
+  thrown in /home5/uv1949/public_html/adm_visible/productos.php on line 56
+[09-Apr-2025 15:54:46 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home5/uv1949/public_html/adm_visible/productos.php:56
+Stack trace:
+#0 /home5/uv1949/public_html/views/categorias.php(93): include()
+#1 {main}
+  thrown in /home5/uv1949/public_html/adm_visible/productos.php on line 56
+[09-Apr-2025 19:50:08 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:50:08 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:51:13 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:51:13 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:09 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:09 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:10 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:10 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:10 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:10 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:11 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:11 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:11 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:11 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:11 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:11 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:11 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:11 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:12 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:12 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:12 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:12 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:12 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:12 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:12 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:53:12 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:54:47 America/Argentina/Buenos_Aires] PHP Warning:  include(../views/productos.php): failed to open stream: No such file or directory in /home5/uv1949/public_html/views/categorias.php on line 58
+[09-Apr-2025 19:54:47 America/Argentina/Buenos_Aires] PHP Warning:  include(): Failed opening '../views/productos.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home5/uv1949/public_html/views/categorias.php on line 58
