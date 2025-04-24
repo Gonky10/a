@@ -29,7 +29,7 @@
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_2.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         .whatsapp-icon {
@@ -102,7 +102,7 @@
 
                 <div class="carousel-inner" role="listbox">
 
-                    <div class="carousel-item active" style="background-image: url('img/Toshiba-64-4.jpg');">
+                    <div class="carousel-item active" style="background-image: url('img/gp_soft_1.png');">
                         <div class="carousel-container">
                             <div class="carousel-content">
 
@@ -111,25 +111,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url('img/X0000_Toshiba_MRI Vantage Titan 3T_12.jpg');">
-                        <div class="carousel-container">
-                            <div class="carousel-content">
-
-                                <a href="#about" class="btn-get-started scrollto">Ingresar</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item" style="background-image: url('img/resonador2.png');">
-                        <div class="carousel-container">
-                            <div class="carousel-content">
-
-                                <a href="#about" class="btn-get-started scrollto">Ingresar</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item" style="background-image: url('img/ToshibaElan-System_MRC.jpg');">
+                    <div class="carousel-item" style="background-image: url('img/gp_soft_44.png');">
                         <div class="carousel-container">
                             <div class="carousel-content">
 
