@@ -27,6 +27,7 @@
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 
     <!-- Main Stylesheet File -->
     <link href="css/style_2.css" rel="stylesheet">
@@ -102,7 +103,7 @@
 
                 <div class="carousel-inner" role="listbox">
 
-                    <div class="carousel-item active" style="background-image: url('img/gp_soft_1.png');">
+                    <div class="carousel-item active" style="background-image: url('img/incognito.png');">
                         <div class="carousel-container">
                             <div class="carousel-content">
 
@@ -111,7 +112,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item" style="background-image: url('img/gp_soft_44.png');">
+                    <div class="carousel-item" style="background-image: url('img/incognito_2.png');">
                         <div class="carousel-container">
                             <div class="carousel-content">
 
@@ -139,213 +140,65 @@
     <main id="main">
 
 
-        <section id="portfolio" class="section-bg">
+        <section id="services" class="section-bg">
             <div class="container">
 
                 <header class="section-header">
-                    <h3 class="section-title">Equipos Usados Garantizados</h3>
+                    <h3 class="section-title">Soluciones de Software</h3>
                 </header>
 
-                <p>Nuestra empresa ofrece a sus Clientes su exclusiva Línea GPI GOLDEN, de equipamientos totalmente reacondicionados y con garantía directa. Esta línea fue especialmente desarrollada para quienes desean renovar su actual parque instalado de equipos o bien, desarrollar un nuevo proyecto de inversión, que resulte amortizable en un período de tiempo razonable de acuerdo a las condiciones actuales del mercado como así también, optar por la opción de alquiler en pos de minimizar el impacto en el flujo de capital de trabajo. Esto le posibilitará acceder a equipos de última tecnología, y disfrutar de sus ventajas, a costos especiales comparados con la oferta tradicional de compra de equipamiento nuevo.</p>
+                <section style="max-width: 900px; margin: 0 auto; padding: 40px 20px; font-family: Arial, sans-serif;">
 
-                <p>Esta línea abarca un amplio abanico de posibilidades, tecnologías, modelos y precios, siendo una excelente opción a la hora tomar una decisión de esta envergadura. Trabajamos con las principales marcas que lideran el mercado, lo que nos asegura encontrar el equipo indicado para cada Cliente.</p>
+                    <p style="font-size: 16px; line-height: 1.6; color: #333;">
+                        En <strong>GP Imágenes SRL</strong> nos especializamos en brindar <strong>soluciones tecnológicas integrales</strong>
+                        adaptadas al ámbito de la salud. Con más de una década de experiencia en el mercado, fusionamos el desarrollo de software con
+                        nuestro conocimiento técnico en equipos de diagnóstico por imágenes.
+                    </p>
+                    <header class="section-header " style="margin-top: 20%;">
+                        <h3 class="section-title">Nuestros servicios incluyen:</h3>
+                    </header>
 
-                <p>Lo invitamos a dejarnos su inquietud, a través de la sección contactos, y a la brevedad un representante de nuestro departamento especializado de ventas se comunicara con usted.</p>
+                    <ul style="font-size: 16px; line-height: 1.6; color: #333; padding-left: 20px;">
+                        <li>Desarrollo de <strong>aplicaciones web personalizadas</strong> según las necesidades de cada cliente.</li>
+                        <li>Creación de <strong>aplicaciones móviles</strong> intuitivas y funcionales.</li>
+                        <li>Implementación de <strong>soluciones de software para equipos médicos</strong>, como tomografía computada y densitometría.</li>
+                    </ul>
 
-                <p>Desde ya agradecemos su visita.</p>
+                    <p style="font-size: 16px; line-height: 1.6; color: #333; margin-top: 20px;">
+                        Nuestro enfoque está en ofrecer herramientas digitales que <strong>optimicen procesos clínicos</strong>,
+                        <strong>mejoren la precisión diagnóstica</strong> y <strong>aumenten la eficiencia operativa</strong>.
+                    </p>
+
+                    <p style="font-size: 16px; line-height: 1.6; color: #333; font-weight: bold; margin-top: 30px;">
+                        Confíanos tu proyecto y lo transformamos en una solución eficaz, moderna y escalable.
+                    </p>
+                </section>
 
 
-                <div class="row portfolio-container">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-                        <div class="portfolio-wrap" onclick="window.location.href='https://gpimagenes.com/views/categorias.php?type=1'" style="cursor: pointer;">
-                            <figure>
-                                <img src="img/tomoCompu.png" class="img-fluid" alt="">
-                                <a href="https://gpimagenes.com/views/categorias.php?type=1"
-                                    class="link-preview"
-                                    title="Ver productos de Tomografía Computada">
-                                    <i class="ion ion-eye"></i>
-                                </a>
-                            </figure>
-                            <div class="portfolio-info">
-                                <!-- Título que también redirige -->
-                                <h4>
-                                    <a href="https://gpimagenes.com/views/categorias.php?type=1">
-                                        Tomografía Computada
-                                    </a>
-                                </h4>
-                            </div>
+                <div class="d-flex flex-wrap gap-3" style="margin-top: 5%;">
+                    <!-- Card 1 -->
+                    <div class="card mb-3" style="max-width: 18rem; background-color: #0092db; color: white;">
+                        <div class="card-header">Aplicaciones web clasicas</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Webs con amplia gama de pestañas</h5>
+                            <p class="card-text">Panel de </p>
                         </div>
                     </div>
 
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-                        <div class="portfolio-wrap" onclick="window.location.href='https://gpimagenes.com/views/categorias.php?type=5'" style="cursor: pointer;">
-                            <figure>
-                                <img src="img/densiOsea.png" class="img-fluid" alt="">
-
-                                <!-- Ícono del ojo que redirige -->
-                                <a href="https://gpimagenes.com/views/categorias.php?type=5"
-                                    class="link-preview"
-                                    title="Ver productos de Tomografía Computada">
-                                    <i class="ion ion-eye"></i>
-                                </a>
-                            </figure>
-
-                            <div class="portfolio-info">
-                                <!-- Título que también redirige -->
-                                <h4>
-                                    <a href="https://gpimagenes.com/views/categorias.php?type=5">
-                                        Densitometría Ósea
-                                    </a>
-                                </h4>
-                            </div>
+                    <!-- Card 2 -->
+                    <div class="card mb-3" style="max-width: 18rem; background-color: #25D366; color: white;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h5 class="card-title">Warning card title</h5>
+                            <p class="card-text">Some quick example text...</p>
                         </div>
                     </div>
 
-
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap" onclick="window.location.href='https://gpimagenes.com/views/categorias.php?type=2'" style="cursor: pointer;">
-                            <figure>
-                                <img src="img/camaraGama.png" class="img-fluid" alt="">
-                                <a href="img/camaraGama.png"
-                                    class="link-preview"
-                                    data-title="<strong>Cámaras Gamma</strong><br><span style='font-weight:normal;'>Cámara Gamma de última generación para estudios especializados.</span>"
-                                    data-lightbox="portfolio"
-                                    title="Preview">
-                                    <i class="ion ion-eye"></i>
-                                </a>
-
-                            </figure>
-
-                            <div class="portfolio-info">
-                                <h4><a href="#" onclick="return false;">Cámaras Gamma</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <figure>
-                                <img src="img/hemodinamia.png" class="img-fluid" alt="">
-                                <a href="img/hemodinamia.png"
-                                    class="link-preview"
-                                    data-title="<strong>Hemodinamia</strong><br><span style='font-weight:normal;'>Sistemas especializados para estudios cardiovasculares invasivos, permitiendo evaluar en tiempo real arterias coronarias, válvulas y estructuras cardíacas.</span>"
-                                    data-lightbox="portfolio"
-                                    title="Preview">
-                                    <i class="ion ion-eye"></i>
-                                </a>
-                                <!--<a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
-                            </figure>
-
-                            <div class="portfolio-info">
-                                <h4><a href="#" onclick="return false;">Hemodinamia</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-                        <div class="portfolio-wrap">
-                            <figure>
-                                <img src="img/resonaMagne.png" class="img-fluid" alt="">
-                                <a href="img/resonaMagne.png"
-                                    class="link-preview"
-                                    data-title="<strong>Resonancia Magnética</strong><br><span style='font-weight:normal;'>Equipos de alta resolución que utilizan campos magnéticos y ondas de radio para generar imágenes detalladas de tejidos blandos sin radiación.</span>"
-                                    data-lightbox="portfolio"
-                                    title="Preview">
-                                    <i class="ion ion-eye"></i>
-                                </a>
-                                <!--<a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
-                            </figure>
-
-                            <div class="portfolio-info">
-                                <h4><a href="#" onclick="return false;">Resonancia Magnética</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <figure>
-                                <img src="img/desfi.png" class="img-fluid" alt="">
-                                <a href="img/desfi.png"
-                                    class="link-preview"
-                                    data-title="<strong>Desfibriladores</strong><br><span style='font-weight:normal;'>Equipos vitales para emergencias cardíacas que restablecen el ritmo cardíaco normal en casos de arritmias o paro mediante descargas eléctricas.</span>"
-                                    data-lightbox="portfolio"
-                                    title="Preview">
-                                    <i class="ion ion-eye"></i>
-                                </a> <!--<a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
-                            </figure>
-
-                            <div class="portfolio-info">
-                                <h4><a href="#" onclick="return false;">Desfibriladores</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-                        <div class="portfolio-wrap">
-                            <figure>
-                                <img src="img/eco.png" class="img-fluid" alt="">
-                                <a href="img/eco.png"
-                                    class="link-preview"
-                                    data-title="<strong>Ecógrafos</strong><br><span style='font-weight:normal;'>Herramientas clave en diagnóstico por imágenes que permiten visualizar órganos y estructuras internas en tiempo real, sin radiación.</span>"
-                                    data-lightbox="portfolio"
-                                    title="Preview">
-                                    <i class="ion ion-eye"></i>
-                                </a>
-                            </figure>
-
-                            <div class="portfolio-info">
-                                <h4><a href="#" onclick="return false;">Ecógrafos</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <figure>
-                                <img src="img/arcosEnC.png" class="img-fluid" alt="">
-                                <a href="img/arcosEnC.png"
-                                    class="link-preview"
-                                    data-title="<strong>Arcos en C</strong><br><span style='font-weight:normal;'>Sistemas de fluoroscopía móvil usados en quirófano que permiten visualizar estructuras óseas y guiar procedimientos con precisión.</span>"
-                                    data-lightbox="portfolio"
-                                    title="Preview">
-                                    <i class="ion ion-eye"></i>
-                                </a> <!--<a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
-                            </figure>
-
-                            <div class="portfolio-info">
-                                <h4><a href="#" onclick="return false;">Arcos en C</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <figure>
-                                <img src="img/electroCardio.png" class="img-fluid" alt="">
-                                <a href="img/electroCardio.png"
-                                    class="link-preview"
-                                    data-title="<strong>Electro Cardiógrafos</strong><br><span style='font-weight:normal;'>Dispositivos fundamentales para registrar la actividad eléctrica del corazón, útiles para el diagnóstico rápido de alteraciones cardíacas.</span>"
-                                    data-lightbox="portfolio"
-                                    title="Preview">
-                                    <i class="ion ion-eye"></i>
-                                </a> <!--<a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>-->
-                            </figure>
-
-                            <div class="portfolio-info">
-                                <h4><a href="#" onclick="return false;">Electro Cardiógrafos</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
+                    <!-- Repetí el resto igual -->
                 </div>
+
+            </div>
 
             </div>
         </section>
@@ -405,75 +258,8 @@
                     </div>
 
                 </div>
-
-            </div>
         </section><!-- #about -->
 
-
-        <section id="services">
-            <div class="container">
-
-                <header class="section-header wow fadeInUp">
-                    <h3>Servicios</h3>
-                    <p>Nuestra empresa ofrece un Plan de Gestión Integral (PGI) sobre su parque de Equipos Instalados, especialmente ajustado a las reales necesidades de cada Cliente. El PGI se estructura considerando 5 (cinco) diferentes dimensiones que en su conjunto, nos permiten ofrecer un esquema de servicios que garanticen la continuidad operativa de sus prestaciones como también, le ofrecemos la posibilidad de realizar una Planificación de Gastos e Inversiones en pos de tomar las decisiones correctas, en el momento adecuado. Así, fácilmente sabrá cuál es el costo implícito en términos de descartar, reparar y mantener, actualizar o incorporar nuevos equipos al servicio de sus prestaciones.</p>
-
-                    <p>Siendo nuestro Cliente el foco principal, el Plan de Gestión Integral (PGI) se crea con una visión integral que considera:</p>
-
-                    <p style="text-align:center;"><img style="width: 100%; height: auto; max-width: 480px;" src="img/rueda.png"></p>
-
-                </header>
-
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-stats-bars"></i></div>
-                        <h4 class="title"><a href="">Nivel de operación actual</a></h4>
-                        <p class="description">Conocer todos y cada uno de los servicios que su institución actualmente ofrece incluyendo: estado del equipamiento utilizado, nivel de confiabilidad, tasa de fallas, etc.</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-ios-compose-outline"></i></div>
-                        <h4 class="title"><a href="">Proyección de crecimiento</a></h4>
-                        <p class="description">Establecieron claridad cuáles son sus reales expectativas y en qué plazos, respecto a la incorporación de nuevos servicios / potenciar los actuales.</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-arrow-graph-up-right"></i></div>
-                        <h4 class="title"><a href="">Mejora en prestaciones</a></h4>
-                        <p class="description">Trazar un objetivo claro y ecualizar expectativas respecto a la mejora sobre las prestaciones que se ofrecen considerando, posibilidades de actualización sobre el equipamiento actual.</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-cash"></i></div>
-                        <h4 class="title"><a href="">Posibilidades de inversión vs. rentabilidad</a></h4>
-                        <p class="description">Realizar un cálculo de ROI para balancear la ecuación de costos vs rentabilidad y así, determinar mejor la opción de inversión para lograr el objetivo trazado.</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-                        <div class="icon"><i class="ion-umbrella"></i></div>
-                        <h4 class="title"><a href="">Gestión de riesgos</a></h4>
-                        <p class="description">Construir un mapa de riesgos del parque de equipos instalados para facilitar la toma de decisiones respecto a mantener, actualizar o incorporar nueva tecnología al servicio de las prestaciones y así, planificar gastos e inversiones en cada caso.</p>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <section id="services">
-            <div class="container">
-
-                <header class="section-header">
-                    <h3>Servicios Estándar</h3>
-                    <ul style="color: black;">
-                        <li>Alquiler de equipos y provisión de insumos médicos.</li>
-                        <li>Contrato de servicios técnicos (SLAs) para mantenimiento preventivo y correctivo.</li>
-                        <li>Servicios tecnicos "OnDemand"</li>
-                        <li>Los invitamos a conocer más sobre nuestros servicios por alguna de nuestras vías de contacto.</li>
-                    </ul>
-                </header>
-
-                <div class="skills-content">
-
-                </div>
-
-            </div>
-        </section>
 
 
         </div>
@@ -683,6 +469,7 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
     <script src="js/bootbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 
     <script>
         // esta funciòn se anexa luego al fronttienda_view.js
