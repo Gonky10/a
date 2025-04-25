@@ -272,7 +272,7 @@
                 <div class="form">
                     <div id="sendmessage">Tu mensaje ha sido enviado con exito. A la brevedad te contactaremos, Gracias!</div>
 
-                    <form action="send_form_email.php" method="post" role="form" class="contactForm" data-toggle="validator">
+                    <form action="send_form_email_soft.php" method="post" role="form" class="contactForm" data-toggle="validator">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
@@ -301,10 +301,12 @@
                                 <div class="validation"></div>
                             </div>
                             <div class="form-group col-md-6">
-                                <select name="areaDeConsulta" class="form-control">
-                                    <option value="Ventas">Ventas</option>
-                                    <option value="Servicios">Servicios</option>
-                                </select>
+                            <select name="areaDeConsulta" class="form-select" aria-label="Default select example">
+                                <option selected>Seleccione por favor</option>
+                                <option value="Desarrollo web">Desarrollo web</option>
+                                <option value="Desarrollo mobile">Desarrollo mobile</option>
+                                <option value="Otro">Otro</option>
+                            </select>
                                 <div class="validation"></div>
                             </div>
                         </div>

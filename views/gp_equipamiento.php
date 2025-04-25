@@ -557,7 +557,7 @@
                 <div class="form">
                     <div id="sendmessage">Tu mensaje ha sido enviado con exito. A la brevedad te contactaremos, Gracias!</div>
 
-                    <form action="send_form_email.php" method="post" role="form" class="contactForm" data-toggle="validator">
+                    <form action="../send_form_email.php" method="post" role="form" class="contactForm" data-toggle="validator">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
