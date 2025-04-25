@@ -33,6 +33,16 @@
     <link href="css/style_2.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        .header_dev {
+            font-size: 32px;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
         .whatsapp-icon {
             font-size: 3vw;
             /* Tamaño del ícono relativo al ancho de la pantalla */
@@ -64,7 +74,7 @@
 </head>
 
 <body>
-    <a href="https://wa.me/5491154198470" target="_blank" class="whatsapp-icon">
+    <a href="https://wa.me/5491162651085" target="_blank" class="whatsapp-icon">
         <i class="fab fa-whatsapp"></i>
     </a>
     <!--==========================
@@ -82,10 +92,7 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li class="menu-active"><a href="#intro">Inicio</a></li>
-                    <li><a href="#about">Quienes somos</a></li>
                     <li><a href="#services">Servicios</a></li>
-                    <li><a href="#portfolio">Productos</a></li>
-
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
@@ -143,55 +150,62 @@
         <section id="services" class="section-bg">
             <div class="container">
 
-                <header class="section-header">
-                    <h3 class="section-title">Soluciones de Software</h3>
+                <header>
+                    <h3 class="header_dev">Soluciones de Software</h3>
                 </header>
 
-                <section style="max-width: 900px; margin: 0 auto; padding: 40px 20px; font-family: Arial, sans-serif;">
-
-                    <p style="font-size: 16px; line-height: 1.6; color: #333;">
-                        En <strong>GP Imágenes SRL</strong> nos especializamos en brindar <strong>soluciones tecnológicas integrales</strong>
-                        adaptadas al ámbito de la salud. Con más de una década de experiencia en el mercado, fusionamos el desarrollo de software con
-                        nuestro conocimiento técnico en equipos de diagnóstico por imágenes.
-                    </p>
-                    <header class="section-header " style="margin-top: 20%;">
-                        <h3 class="section-title">Nuestros servicios incluyen:</h3>
-                    </header>
-
-                    <ul style="font-size: 16px; line-height: 1.6; color: #333; padding-left: 20px;">
-                        <li>Desarrollo de <strong>aplicaciones web personalizadas</strong> según las necesidades de cada cliente.</li>
-                        <li>Creación de <strong>aplicaciones móviles</strong> intuitivas y funcionales.</li>
-                        <li>Implementación de <strong>soluciones de software para equipos médicos</strong>, como tomografía computada y densitometría.</li>
-                    </ul>
-
-                    <p style="font-size: 16px; line-height: 1.6; color: #333; margin-top: 20px;">
-                        Nuestro enfoque está en ofrecer herramientas digitales que <strong>optimicen procesos clínicos</strong>,
-                        <strong>mejoren la precisión diagnóstica</strong> y <strong>aumenten la eficiencia operativa</strong>.
-                    </p>
-
-                    <p style="font-size: 16px; line-height: 1.6; color: #333; font-weight: bold; margin-top: 30px;">
-                        Confíanos tu proyecto y lo transformamos en una solución eficaz, moderna y escalable.
-                    </p>
-                </section>
 
 
 
-                <div class="d-flex flex-wrap gap-3" style="margin-top: 5%;">
+
+                <div class="d-flex flex-wrap gap-3 justify-content-center" style="margin-top: 5%; font-family: Open Sans, sans-serif;">
                     <!-- Card 1 -->
-                    <div class="card mb-3" style="max-width: 18rem; background-color: #0092db; color: white;">
-                        <div class="card-header">Aplicaciones web clasicas</div>
-                        <div class="card-body">
-                            <h5 class="card-title">Webs con amplia gama de pestañas</h5>
-                            <p class="card-text">Panel de </p>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/dev_web.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Aplicaciones web</h5>
+                                    <p class="card-text">Desarrollamos aplicaciones web a medida,
+                                        enfocadas en mejorar la eficiencia operativa y la experiencia del usuario.
+                                        Nuestro equipo integra las últimas tecnologías en diseño, funcionalidad y seguridad para crear plataformas modernas,
+                                        escalables y personalizables, ya sea para gestión empresarial, servicios al cliente o procesos internos.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="card mb-3" style="max-width: 18rem; background-color: #25D366; color: white;">
-                        <div class="card-header">Header</div>
-                        <div class="card-body">
-                            <h5 class="card-title">Warning card title</h5>
-                            <p class="card-text">Some quick example text...</p>
+                    <div class="card mb-3" style="max-width: 540px; font-family: Open Sans, sans-serif;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/dev_mobile.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Aplicaciones moviles</h5>
+                                    <p class="card-text">Desarrollamos aplicaciones móviles innovadoras, funcionales y adaptadas a las necesidades específicas de cada cliente. Ya sea para el sector médico, comercial o industrial, nuestras apps están diseñadas para optimizar procesos, mejorar la interacción con los usuarios y brindar acceso rápido a la información desde cualquier dispositivo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" style="max-width: 540px; font-family: Open Sans, sans-serif;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="img/dev_solve.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Solucion de errores</h5>
+                                    <p class="card-text">Ofrecemos un servicio especializado de detección,
+                                        análisis y solución de errores tanto en software de equipos médicos como en aplicaciones web y móviles.
+                                        Nuestra experiencia técnica nos permite abordar incidencias que afecten el rendimiento, la conectividad,
+                                        la compatibilidad o la funcionalidad de los sistemas, brindando respuestas ágiles.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -202,78 +216,11 @@
 
             </div>
         </section>
-        <section id="about">
-            <div class="container">
-
-                <header class="section-header">
-                    <h3>Quienes somos</h3>
-                    <p><b>GP Imágenes</b> es una empresa dedicada a la entrega de Soluciones Integrales en Tecnología Médica, que van desde la tradicional venta y reparación de equipamiento médico y hasta, la adecuación de nuestra oferta en Soluciones y Servicios acordes a sus necesidades, focalizándonos siempre en aquellas tareas que aporten valor agregado a su negocio.
-
-                        Contamos con un staff de profesionales ampliamente capacitados en la industria de equipamiento médico de última generación, con vasta experiencia en las principales marcas que lideran el mercado.</p>
-
-                    <p><b>GP Imágenes</b> pone a su disposición los más de 20 años de experiencia en el mercado de la tecnología médica al servicio de la salud para crear, conjuntamente, planes estratégicos que consideren sus proyecciones de crecimiento, estado de situación actual de sus servicios y por lo tanto, necesidades de incorporación, recambio por obsolescencia tecnológica y mantenimiento del parque instalado de equipos, en el corto, mediano y largo plazo.</p>
-                </header>
-
-                <div class="row about-cols">
-
-                    <div class="col-md-4 wow fadeInUp">
-                        <div class="about-col">
-                            <div class="img">
-                                <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                                <div class="icon"><i class="ion-ios-list-outline"></i></div>
-                            </div>
-                            <h2 class="title"><a href="#">Nuestra Misión</a></h2>
-                            <p>
-                                Entregarle Servicios y Soluciones Integrales en Tecnología Médica acorde a sus necesidades, maximizando la productividad debido a la disminución en los tiempos de inoperancia de sus equipos con los mejores costos del mercado.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="about-col">
-                            <div class="img">
-                                <img src="img/about-plan.jpg" alt="" class="img-fluid">
-                                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                            </div>
-                            <h2 class="title"><a href="#">Nuestro Objetivo</a></h2>
-                            <p>
-                                Convertirnos en su Socio Tecnológico, de manera que pueda canalizar en nosotros todas sus inquietudes, requerimientos, y necesidades técnicas, asistiéndolo en la planificación estratégica para una adecuada toma de decisiones; permitiéndole de esta forma, focalizarse en el corazón de su negocio.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="about-col">
-                            <div class="img">
-                                <img src="img/about-vision.jpg" alt="" class="img-fluid">
-                                <div class="icon"><i class="ion-ios-people-outline"></i></div>
-                            </div>
-                            <h2 class="title"><a href="#">Nuestro Compromiso</a></h2>
-                            <p>
-                                Elaborar conjuntamente con usted un plan estratégico considerando necesidades de incorporación de nuevos equipamientos con base en su proyección de crecimiento considerando también, necesidades de adecuaciones de su actual parque instalado con base en la obsolescencia tecnológica. De esta forma, le garantizamos una adecuada cobertura y previsibilidad frente a eventuales dificultades técnicas y tecnológicas que se le presenten.</p>
-                            <p>
-                                Todo esto volcado en un plan que incorpore medidas de corto, mediano y largo plazo alineado a sus objetivos estratégicos facilitándole de esta forma, tomar las decisiones correctas en el momento oportuno.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-        </section><!-- #about -->
 
 
 
         </div>
-        </section><!-- #facts -->
-
-        <!--==========================
-      Portfolio Section
-    ============================-->
-        -->
-
-
-        <!--==========================
-      Contact Section
-    ============================-->
+        </section>
         <section id="contact" class="section-bg wow fadeInUp">
             <div class="container">
 
@@ -287,7 +234,7 @@
                         <div class="contact-address">
                             <i class="ion-ios-telephone-outline"></i>
                             <h3>Teléfono</h3>
-                            <p><a href="tel:+5491154198470">+54 911 5419 8470</a></p>
+                            <p><a href="tel:+5491154198470">+54 9 11 6265-1085</a></p>
                         </div>
                     </div>
 
@@ -296,7 +243,7 @@
                         <div class="contact-email">
                             <i class="ion-ios-email-outline"></i>
                             <h3>Email</h3>
-                            <p><a href="mailto:info@gpimagenes.com">info@gpimagenes.com</a></p>
+                            <p><a href="mailto:info@gpimagenes.com">ngoncalves@gpimagenes.com</a></p>
                         </div>
                     </div>
 
@@ -405,8 +352,8 @@
                     <div class="col-lg-3 col-md-6 footer-contact" style="flex: 0 0 33.333%; max-width: 33.333%;">
                         <h4>Contacto</h4>
                         <p>
-                            <strong>Teléfono:</strong> +54 911 54198470<br>
-                            <strong>Email:</strong> info@gpimagenes.com<br>
+                            <strong>Teléfono:</strong> +54 9 11 6265-1085<br>
+                            <strong>Email:</strong> ngoncalves@gpimagenes.com<br>
                         </p>
 
                     </div>
