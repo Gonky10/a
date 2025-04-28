@@ -747,6 +747,74 @@ body {
     margin-bottom: 0;
     padding: 0 20px 20px 20px;
   }
+
+
+
+
+
+  #clients {
+    position: relative;
+    padding: 60px 0 40px 0;
+    z-index: 1;
+  }
+  
+  #clients::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url(../img/incognito.png) center top no-repeat fixed;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: 0;
+  }
+  
+
+  #clients .container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  
+  #clients .box {
+    margin-bottom: 30px;
+  }
+  
+  #clients .icon {
+    float: left;
+  }
+  
+  #clients .icon i {
+    color: #0092db;
+    font-size: 36px;
+    line-height: 1;
+    transition: 0.5s;
+  }
+  
+  #clients .title {
+    margin-left: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #clients .title a {
+    color: #111;
+  }
+  
+  #clients .box:hover .title a {
+    color: #0092db;
+  }
+  
+  #clients .description {
+    font-size: 14px;
+    margin-left: 60px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+
+
+
   
   /* Services Section
   --------------------------------*/
@@ -760,7 +828,7 @@ body {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: url(../img/incognito.png) center top no-repeat fixed;
+    background: url(../img/incognito_2.png) center top no-repeat fixed;
     background-size: cover;
     filter: blur(8px);
     z-index: 0;

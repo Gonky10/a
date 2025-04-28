@@ -33,6 +33,11 @@
     <link href="css/style_2.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        .modal-backdrop.show {
+    opacity: 0 !important;
+    pointer-events: none !important; /* Esto es CLAVE */
+}
+
         .header_dev {
             font-size: 32px;
             color: white;
@@ -114,7 +119,7 @@
                         <div class="carousel-container">
                             <div class="carousel-content">
 
-                                <a href="#about" class="btn-get-started scrollto">Ingresar</a>
+                                <a href="#service" class="btn-get-started scrollto">Ingresar</a>
                             </div>
                         </div>
                     </div>
@@ -123,7 +128,7 @@
                         <div class="carousel-container">
                             <div class="carousel-content">
 
-                                <a href="#about" class="btn-get-started scrollto">Ingresar</a>
+                                <a href="#service" class="btn-get-started scrollto">Ingresar</a>
                             </div>
                         </div>
                     </div>
@@ -208,6 +213,89 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Repetí el resto igual -->
+                </div>
+
+            </div>
+
+            </div>
+        </section>
+        
+
+
+
+        <section id="clients" class="section-bg">
+            <div class="container">
+
+                <header>
+                    <h3 class="header_dev">Nuestros Clientes</h3>
+                </header>
+
+
+
+
+
+                <div class="d-flex flex-wrap gap-3 justify-content-center" style="margin-top: 5%; font-family: Open Sans, sans-serif;">
+                <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <video src="./videos/cliente_2.mp4" muted autoplay loop class="img-fluid rounded-start" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#videoModal"></video>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Aplicacion Mobile Transcribe</h5>
+        <p class="card-text">
+          App Mobile desarrollada para Duende Rojo.
+          Transcripción por Audio: Utilizando reconocimiento de voz en tiempo real, permite convertir conversaciones en texto automáticamente.
+Transcripción por Imagen: Permite seleccionar una imagen desde la galería o tomar una foto con la cámara, para luego extraer el texto utilizando OCR (Reconocimiento Óptico de Caracteres).
+Copiar al Portapapeles: Los usuarios pueden copiar el texto transcrito fácilmente para pegarlo en otros documentos o aplicaciones.        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body d-flex justify-content-center">
+        <video id="videoEnModal" src="./videos/cliente_2.mp4" controls autoplay style="max-height: 90vh; max-width: 100%; border-radius: 10px;"></video>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <video src="./videos/cliente_1.mp4" muted autoplay loop class="img-fluid rounded-start" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#videoModal"></video>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Aplicacion Mobile Encantados</h5>
+        <p class="card-text">
+          App Mobile Realizada para Encantados Servicio Para Eventos.
+          Es una plataforma para consultar precios de distintos tipos de menús gastronómicos. El cliente tenia la necesidad de agilizar el proceso de consulta de precios y mostrar su variedad de opciones gastronómicas mediante una app que muestre el contenido. Hecho con React Native, IOS environment y Firebase Firestore para la base de datos NoSQL 🚀
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body d-flex justify-content-center">
+        <video id="videoEnModal" src="./videos/cliente_1.mp4" controls autoplay style="max-height: 90vh; max-width: 100%; border-radius: 10px;"></video>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
                     <!-- Repetí el resto igual -->
                 </div>
